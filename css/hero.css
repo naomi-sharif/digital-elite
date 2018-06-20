@@ -1,0 +1,50 @@
+.hero {
+    padding: 1rem;
+    background-image: url('/img/background_header.jpg');
+    background-size: cover;
+    background-position: -30%;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero__title {
+    font-size: 1.4rem;
+    line-height: 1;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.hero__title--emph {
+    color: #30343F;
+}
+
+.hero__button {
+    text-decoration: none;
+    color: #30343F;
+    padding: .5rem 1.5rem;
+    background: white;
+    border-radius: 999rem;
+    border: 3px solid #30343F;
+    box-shadow: 0px 1px 2px -1px #30343F;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-size: .75rem;
+    position: relative;
+}
+
+.hero__background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #DB5461;
+    left: 0;
+    right: 0;
+    transform: skewX(50deg) translate(-50%) scale(2);
+}
