@@ -1,6 +1,6 @@
 .hero {
     padding: 1rem;
-    background-image: url('img/background_header.jpg');
+    background-image: url('../img/background_header.jpg');
     background-size: cover;
     background-position: -30%;
     min-height: 75vh;
